@@ -1,0 +1,49 @@
+html, body {
+	font-family: Arial, Helvetica sans-serif;
+	color: #555753;
+	height: 95%;
+}
+a {
+	color: #555753;
+}
+#vcard{ 
+	max-width: 900px;
+	max-height: 400px;
+	font-size: 1.8em;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  margin: auto;
+}
+
+#vcard h1 {
+	font-weight: normal; font-size: 2em;
+	width: 100%;
+	text-align: center;
+	background: url(logo.png) no-repeat top left;
+	margin: 0 20px 80px 20px;
+	height: 128px;
+}
+#vcard  h1 span{ display: block; font-size: 0.5em;}
+#vcard ul { padding: 0px;}
+#vcard ul li { list-style-type: none; height: 64px; float: left; 
+	width: 350px;
+	margin: 0;
+	padding: 10px 0  0 80px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+.email{
+	background-image: url(at.png);
+}
+.address{ font-size: 0.75em;
+	background-image: url(envelope.png);
+}
+.phone{
+	background-image: url(phone.png);
+}
+.chat{ font-size: 0.65em; background-image: url(chat.png); padding-top: 0 !important;}
+.qrcode{position: absolute; bottom: 10px; right: 10px}
