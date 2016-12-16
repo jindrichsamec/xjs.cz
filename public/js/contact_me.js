@@ -13,8 +13,9 @@ $(function() {
 
 			// Check for white space in name for Success/Fail message
 			$.ajax({
-				url: "././mail/contact_me.php",
+				url: "https://formspree.io/jindrich.samec@xjs.cz",
 				type: "POST",
+				dataType: "json",
 				data: {
 					email: email,
 					message: message
