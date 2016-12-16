@@ -42,7 +42,6 @@ $(function() {
 					$('#success > .alert-danger').append("<strong>Omlouvám se, zprávu se nepodařilo odeslat. Zkuste to za chvíli znovu!");
 					$('#success > .alert-danger').append('</div>');
 					//clear all fields
-					$('#contactForm').trigger("reset");
 				},
 			})
 		},
