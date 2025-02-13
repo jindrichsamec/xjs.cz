@@ -7062,9 +7062,11 @@ hr.star-primary {
 header {
   text-align: center;
   background: #2c3e50;
+  background-image: url('../img/background.jpg');
   background-size: cover;
   background-position: center;
   color: white;
+
 }
 header .container {
   padding-top: 100px;
