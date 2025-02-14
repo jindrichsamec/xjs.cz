@@ -8,6 +8,16 @@ import * as $api_joke from "./routes/api/joke.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $Counter from "./islands/Counter.tsx";
+import * as $PersonalWebsite from "./islands/PersonalWebsite.tsx";
+import * as $SkillCloud from "./islands/SkillCloud.tsx";
+import * as $SkillIcon from "./islands/SkillIcon.tsx";
+import * as $TypewriterText from "./islands/TypewriterText.tsx";
+import * as $data_navigation from "./islands/data/navigation.ts";
+import * as $data_skills from "./islands/data/skills.ts";
+import * as $data_social from "./islands/data/social.ts";
+import * as $data_timeline from "./islands/data/timeline.ts";
+import * as $types from "./islands/types.ts";
+import * as $utils_iconMapping from "./islands/utils/iconMapping.ts";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -20,6 +30,16 @@ const manifest = {
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
+    "./islands/PersonalWebsite.tsx": $PersonalWebsite,
+    "./islands/SkillCloud.tsx": $SkillCloud,
+    "./islands/SkillIcon.tsx": $SkillIcon,
+    "./islands/TypewriterText.tsx": $TypewriterText,
+    "./islands/data/navigation.ts": $data_navigation,
+    "./islands/data/skills.ts": $data_skills,
+    "./islands/data/social.ts": $data_social,
+    "./islands/data/timeline.ts": $data_timeline,
+    "./islands/types.ts": $types,
+    "./islands/utils/iconMapping.ts": $utils_iconMapping,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
